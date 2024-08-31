@@ -9,10 +9,11 @@
   font-size: 1.25rem;
   margin-bottom: 2rem;
 }
-#plans-section button:nth-child(1) {
+#plans-section button[aria-label='Sign up'] {
+  padding: 0.5rem 3rem;
   margin-right: 1.5rem;
 }
-#plans-section button {
+#plans-section button[aria-label='Compare plans'] {
   padding: 0.5rem 3rem;
 }
 @media screen and (max-width: 768px) {
@@ -21,7 +22,7 @@
   }
 }
 @media screen and (max-width: 512px) {
-  #plans-section button:nth-child(1) {
+  #plans-section button[aria-label='Sign up'] {
     margin-right: 0rem;
     margin-bottom: 1.5rem;
   }
