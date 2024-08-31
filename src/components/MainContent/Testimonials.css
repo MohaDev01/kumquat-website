@@ -1,0 +1,26 @@
+#testimonials-section > .row {
+  margin-top: 10rem;
+}
+#testimonials-section h2 {
+  font-size: 2.25rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+}
+#testimonials-section h2::before {
+  content: "“";
+}
+#testimonials-section h2::after {
+  content: "”";
+}
+#testimonials-section .img-fluid {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+#testimonials-section p {
+  font-size: 1rem;
+}
+@media screen and (max-width: 768px) {
+  #testimonials-section h2 {
+    font-size: 1.875rem;
+  }
+}

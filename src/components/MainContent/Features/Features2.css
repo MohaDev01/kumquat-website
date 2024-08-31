@@ -1,0 +1,21 @@
+#features2-section > .row {
+  margin-top: 10rem;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+#features2-section .card-text {
+  font-size: 5rem;
+}
+#features2-section {
+  background-color: #f9f9f7;
+}
+@media screen and (max-width: 768px) {
+  #features2-section .card-text {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  #features2-section .card-text {
+    font-size: 3rem;
+  }
+}

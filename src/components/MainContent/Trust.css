@@ -1,0 +1,29 @@
+#trust-section > .row {
+  margin-top: 10rem;
+}
+#trust-section ul {
+  list-style-type: none;
+  gap: 5rem;
+  align-items: center;
+  overflow: hidden;
+}
+#trust-section img {
+  width: 100%;
+}
+#trust-section div:nth-child(2) {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+@media screen and (max-width: 768px) {
+  #trust-section h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  #trust-section h1 {
+    font-size: 1.5rem;
+  }
+  #trust-section ul {
+    gap: 3rem;
+  }
+}

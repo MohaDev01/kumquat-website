@@ -1,0 +1,34 @@
+#features-section .row {
+  margin-top: 10rem;
+  margin-bottom: -2rem;
+}
+#features-section div:nth-child(2) {
+  margin: 0;
+}
+#features-section .row:nth-child(2) {
+  margin-top: 8rem;
+  margin-bottom: -6rem;
+}
+#features-section p:nth-child(1) {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#features-section .card-text {
+  font-size: 1.25rem;
+}
+#features-section .card-link {
+  color: #191919;
+  text-decoration: underline;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  #features-section .cols:nth-child(1),
+  #features-section .cols:nth-child(2) {
+    margin-bottom: 6rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  #features-section h1 {
+    font-size: 2.25rem;
+  }
+}

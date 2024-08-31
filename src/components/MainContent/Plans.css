@@ -1,0 +1,16 @@
+#plans-section > .row {
+  margin-top: 10rem;
+}
+#plans-section p:nth-child(1) {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+#plans-section p:nth-child(2) {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  #plans-section p:nth-child(2) {
+    font-size: 1rem;
+  }
+}

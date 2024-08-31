@@ -1,0 +1,43 @@
+#hero-section .card {
+  margin-top: 25%;
+}
+#hero-section .card-title {
+  font-size: 5rem;
+}
+#hero-section .card-text {
+  font-size: 1.25rem;
+}
+#hero-section .cols:nth-child(1) {
+  margin-top: 2rem;
+}
+#hero-section .cols:nth-child(2) {
+  overflow: hidden;
+}
+#hero-section img {
+  width: 95%;
+  height: 65%;
+  margin-left: 3.2rem;
+  object-fit: cover;
+  margin-top: 12rem;
+  box-shadow: -.4rem .5rem 1rem rgba(0, 0, 0, .1);
+}
+@media screen and (max-width: 1369px) {
+  #hero-section .card-title {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  #hero-section .card-title {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1111px) {
+  #hero-section .card-title {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 890px) {
+  #hero-section .card-title {
+    font-size: 40px;
+  }
+}

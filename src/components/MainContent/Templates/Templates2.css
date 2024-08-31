@@ -1,0 +1,11 @@
+#templates2-section > .row {
+  margin-top: 10rem;
+}
+#templates2-section .card-text {
+  font-size: 5rem;
+}
+@media screen and (max-width: 768px) {
+  #templates2-section .card-text {
+    font-size: 2.25rem;
+  }
+}

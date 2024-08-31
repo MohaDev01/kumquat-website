@@ -1,0 +1,37 @@
+#footer-section > .row {
+  padding: 5rem 2rem;
+}
+#footer-section {
+  background-color: #191919;
+  min-height: 25rem;
+}
+#footer-section img {
+  width: 60%;
+}
+#footer-section h3 {
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+#footer-section ul {
+  list-style-type: none;
+  display: flex;
+}
+#footer-section li {
+  margin-bottom: 1rem;
+}
+#footer-section .link {
+  text-decoration: none;
+  color: white;
+  transition: all .3s;
+  &:hover {
+    margin-left: .5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #footer-section .col {
+    &:nth-child(1) {
+      margin-bottom: 2rem;
+    }
+  }
+}
