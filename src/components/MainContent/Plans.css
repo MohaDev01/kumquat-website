@@ -9,8 +9,20 @@
   font-size: 1.25rem;
   margin-bottom: 2rem;
 }
+#plans-section button:nth-child(1) {
+  margin-right: 1.5rem;
+}
+#plans-section button {
+  padding: 0.5rem 3rem;
+}
 @media screen and (max-width: 768px) {
   #plans-section p:nth-child(2) {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 512px) {
+  #plans-section button:nth-child(1) {
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
   }
 }
