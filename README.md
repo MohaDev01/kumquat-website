@@ -1,6 +1,6 @@
 # Kumquat Website
 
-[![Website](https://img.shields.io/badge/Live-Website-green)](https://kumquatshop.vercel.app/)
+[![Website](https://img.shields.io/badge/Live-Website-red)](https://kumquatshop.vercel.app/)
 
 Welcome to the repository of the **Kumquat Shop** website, a modern and responsive e-commerce platform offering a unique shopping experience. This README provides an overview of the project, installation instructions, usage, and contribution guidelines.
 
