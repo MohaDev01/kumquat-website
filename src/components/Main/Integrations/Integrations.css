@@ -1,0 +1,61 @@
+/* Integrations Section Styles */
+#integrations-section {
+  background-color: #f9f9f7;
+  padding-top: 10rem;
+}
+
+#integrations-section h2 {
+  font-size: 3rem;
+}
+
+#integrations-section ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#integrations-section li {
+  text-align: center;
+}
+
+#integrations-section li p {
+  margin-top: 0.688rem;
+  font-size: 0.875rem;
+}
+
+#integrations-section img {
+  width: 100%;
+}
+
+#integrations-section button {
+  padding: 0.5rem 3rem;
+}
+
+#integrations-section button:nth-child(1) {
+  margin-right: 1.5rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  #integrations-section h2 {
+    font-size: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  #integrations-section h2 {
+    font-size: 1.5rem;
+  }
+
+  #integrations-section ul {
+    gap: 2rem;
+    overflow: clip;
+  }
+
+  #integrations-section button:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
+}

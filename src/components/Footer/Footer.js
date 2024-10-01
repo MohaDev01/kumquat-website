@@ -1,76 +1,70 @@
 import './Footer.css';
-function Footer () {
+import { Link } from 'react-router-dom';
+import LinkedInPic from '../../assets/linkedin.svg';
+import GitHubPic from '../../assets/github.svg';
+import MailPic from '../../assets/mail.png';
+
+function Footer({ showLegalSection = true }) {
   return (
-    <div className="container-fluid text-center" id="footer-section">
+    <footer className="container-fluid text-center" id="footer-section">
       <div className="row">
-        <div className="col-md-3 col-6 col">
-          <h3>PRODUCTS</h3>
-          <ul className='d-flex flex-column text-justify'>
-            <li>
-              <a className="link" href='#'>All Products</a>
-            </li>
-            <li>
-              <a className="link" href='#'>Templates</a>
-            </li>
-            <li>
-              <a className="link" href='#'>Designs</a>
-            </li>
+        {/* Products Section */}
+        <FooterSection title="PRODUCTS" links={[
+          { name: 'All Products', href: '/Products' },
+          { name: 'Templates', href: '#' },
+          { name: 'Designs', href: '#' }
+        ]} />
+
+        {/* Resources Section */}
+        <FooterSection title="RESOURCES" links={[
+          { name: 'FAQ', href: '#' },
+          { name: 'Blog', href: '#' },
+          { name: 'Support', href: '#' }
+        ]} />
+
+        {/* Legal Section - Conditionally Rendered */}
+        {showLegalSection && (
+          <FooterSection title="LEGAL" links={[
+            { name: 'Privacy', href: '#' },
+            { name: 'Terms', href: '#' }
+          ]} />
+        )}
+
+        {/* About Section */}
+        <FooterSection title="ABOUT" links={[
+          { name: 'About Us', href: '/About' },
+          { name: 'Contact', href: '/Contact' }
+        ]}>
+          <ul className='social-icons'>
+            <li><a href="https://www.linkedin.com/in/mohamedabdulrahmanyounis/" target="_blank"><img src={LinkedInPic} alt="LinkedIn" loading="lazy" /></a></li>
+            <li><a href="https://github.com/MohaDev01" target="_blank"><img src={GitHubPic} alt="GitHub" loading="lazy" /></a></li>
+            <li><a href="mailto:mohamedabdulrahmanyounis@gmail.com" target="_blank"><img src={MailPic} alt="Mail" loading="lazy" /></a></li>
           </ul>
-        </div>
-        <div className="col-md-3 col-6 col">
-          <h3>RESOURCES</h3>
-          <ul className='d-flex flex-column text-justify'>
-            <li>
-              <a className="link" href='#'>FAQ</a>
-            </li>
-            <li>
-              <a className="link" href='#'>Blog</a>
-            </li>
-            <li>
-              <a className="link" href='#'>Support</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-3 col-6 col">
-          <h3>LEGAL</h3>
-          <ul className='d-flex flex-column text-justify'>
-            <li>
-              <a className="link" href='#'>Privacy</a>
-            </li>
-            <li>
-              <a className="link" href='#'>Terms</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-3 col-6 col">
-          <h3>ABOUT</h3>
-          <ul className='d-flex flex-column text-justify'>
-            <li>
-              <a className="link" href='#'>About Us</a>
-            </li>
-            <li>
-              <a className="link" href='#'>Contact</a>
-            </li>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/mohamedabdulrahmanyounis/" target="_blank">
-                  <img src="https://mohadev01.github.io/icons/w-linkedin-com.png" alt="LinkedIn"/>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/MohaDev01" target="_blank">
-                  <img src="https://mohadev01.github.io/icons/w-github-com.png" alt="GitHub"/>
-                </a>
-              </li>
-              <li>
-                <a href="mailto:mohamedabdulrahmanyounis@gmail.com" target="_blank">
-                  <img src="https://mohadev01.github.io/icons/w-mail-com.png" alt="Mail"/>
-                </a>
-              </li>
-            </ul>
-          </ul>
-        </div>
+        </FooterSection>
       </div>
+
+      {/* Footer 2 Section */}
+      <footer className="row text-center text-white py-4" id="footer2-section">
+        <div className="col-md-12">
+          <p>© 2024 Mohamed Younis - Kumquat. All rights reserved.</p>
+        </div>
+      </footer>
+    </footer>
+  );
+}
+
+function FooterSection({ title, links, children }) {
+  return (
+    <div className="col-md-3 col-6 col">
+      <h3>{title}</h3>
+      <ul className='d-flex flex-column text-justify'>
+        {links && links.map(link => (
+          <li key={link.name}>
+            <Link className="link" to={link.href}>{link.name}</Link>
+          </li>
+        ))}
+        {children}
+      </ul>
     </div>
   );
 }

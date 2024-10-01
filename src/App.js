@@ -1,17 +1,29 @@
 import './App.css';
-import Nav from './components/Navigation/Nav.js';
-import Main from './components/Main.js';
-import Footer from './components/Footer/Footer.js';
-import Footer2 from './components/Footer/Footer2.js';
+import React, { Suspense } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+const Nav = React.lazy(() => import('./components/Navigation/Nav.js'));
+const Home = React.lazy(() => import('./components/Home/Home.js'));
+const Products = React.lazy(() => import('./components/Products/Products.js'));
+const Pricing = React.lazy(() => import('./components/Pricing/Pricing.js'));
+const About = React.lazy(() => import('./components/About/About.js'));
+const Contact = React.lazy(() => import('./components/Contact/Contact.js'));
+const Footer = React.lazy(() => import('./components/Footer/Footer.js'));
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Suspense fallback={<div className="loader">Loading...</div>}>
         <Nav />
-        <Main />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
-        <Footer2 />
-    </div>
+      </Suspense>
+    </Router>
   );
 }
 
