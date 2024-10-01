@@ -11,8 +11,8 @@ Welcome to the repository of the **Kumquat Shop** website, a modern and responsi
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Contribution Guidelines](#contribution-guidelines)
 - [License](#license)
+- [Contribution Guidelines](#contribution-guidelines)
 
 ---
 
