@@ -16,7 +16,7 @@ function Hero () {
           </div>
         </div>
         <div className="col-lg-6 cols">
-          <img src={gif} alt="Animated Hero GIF" className="img-fluid" loading="lazy" />
+          <img src={gif} alt="Animated Hero" className="img-fluid" loading="lazy" />
         </div>
       </div>
     </section>

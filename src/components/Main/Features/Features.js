@@ -1,10 +1,10 @@
 import './Features.css';
-import pic from "../../../assets/pics/1.jpg";
-import pic2 from "../../../assets/pics/28.png";
-import pic3 from "../../../assets/pics/3.jpg";
-import pic4 from '../../../assets/pics/4.jpg';
-import pic5 from '../../../assets/pics/5.jpg';
-import pic6 from '../../../assets/pics/6.jpg';
+import pic from "../../../assets/pics/1.webp";
+import pic2 from "../../../assets/pics/28.webp";
+import pic3 from "../../../assets/pics/3.webp";
+import pic4 from '../../../assets/pics/4.webp';
+import pic5 from '../../../assets/pics/5.webp';
+import pic6 from '../../../assets/pics/6.webp';
 
 function Features() {
   return (

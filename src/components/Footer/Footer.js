@@ -1,8 +1,8 @@
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import LinkedInPic from '../../assets/linkedin.svg';
+import LinkedInPic from '../../assets/linkedin.webp';
 import GitHubPic from '../../assets/github.svg';
-import MailPic from '../../assets/mail.png';
+import MailPic from '../../assets/mail.webp';
 
 function Footer({ showLegalSection = true }) {
   return (

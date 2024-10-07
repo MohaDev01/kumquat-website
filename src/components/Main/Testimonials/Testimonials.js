@@ -1,5 +1,5 @@
 import './Testimonials.css';
-import EvanRidgePic from '../../../assets/wendell.png';
+import EvanRidgePic from '../../../assets/wendell.webp';
 function Testimonials () {
   return (
     <section className="container text-center" id="testimonials-section">

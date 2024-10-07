@@ -1,7 +1,7 @@
 import './Nav.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import kumquat from '../../assets/kumquat3.png';
+import kumquat from '../../assets/kumquat3.webp';
 function Nav () {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="nav-bar">

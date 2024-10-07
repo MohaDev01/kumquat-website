@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './Templates.css'; // Combine all styles into one CSS file
-import pic7 from '../../../assets/pics/7.jpg';
-import pic8 from '../../../assets/pics/8.jpg';
-import pic9 from '../../../assets/pics/9.jpg';
-import pic10 from '../../../assets/pics/25.jpg';
-import pic11 from '../../../assets/pics/26.jpg';
-import pic12 from '../../../assets/pics/27.jpg';
+import './Templates.css';
+import pic7 from '../../../assets/pics/7.webp';
+import pic8 from '../../../assets/pics/8.webp';
+import pic9 from '../../../assets/pics/9.webp';
+import pic10 from '../../../assets/pics/25.webp';
+import pic11 from '../../../assets/pics/26.webp';
+import pic12 from '../../../assets/pics/27.webp';
 
 function TemplatesCombined() {
   const [imgSrc, setImgSrc] = useState(pic10);
