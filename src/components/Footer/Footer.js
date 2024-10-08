@@ -11,22 +11,22 @@ function Footer({ showLegalSection = true }) {
         {/* Products Section */}
         <FooterSection title="PRODUCTS" links={[
           { name: 'All Products', href: '/Products' },
-          { name: 'Templates', href: '#' },
-          { name: 'Designs', href: '#' }
+          { name: 'Templates', href: '/templates' },
+          { name: 'Designs', href: '/designs' }
         ]} />
 
         {/* Resources Section */}
         <FooterSection title="RESOURCES" links={[
-          { name: 'FAQ', href: '#' },
-          { name: 'Blog', href: '#' },
-          { name: 'Support', href: '#' }
+          { name: 'FAQ', href: '/faq' },
+          { name: 'Blog', href: '/blog' },
+          { name: 'Support', href: '/support' }
         ]} />
 
         {/* Legal Section - Conditionally Rendered */}
         {showLegalSection && (
           <FooterSection title="LEGAL" links={[
-            { name: 'Privacy', href: '#' },
-            { name: 'Terms', href: '#' }
+            { name: 'Privacy', href: '/privacy' },
+            { name: 'Terms', href: '/terms' }
           ]} />
         )}
 
@@ -36,9 +36,9 @@ function Footer({ showLegalSection = true }) {
           { name: 'Contact', href: '/Contact' }
         ]}>
           <ul className='social-icons'>
-            <li><a href="https://www.linkedin.com/in/mohamedabdulrahmanyounis/" target="_blank"><img src={LinkedInPic} alt="LinkedIn" loading="lazy" /></a></li>
-            <li><a href="https://github.com/MohaDev01" target="_blank"><img src={GitHubPic} alt="GitHub" loading="lazy" /></a></li>
-            <li><a href="mailto:mohamedabdulrahmanyounis@gmail.com" target="_blank"><img src={MailPic} alt="Mail" loading="lazy" /></a></li>
+            <li><a href="https://www.linkedin.com/in/mohamedabdulrahmanyounis/" target="_blank" rel="noopener noreferrer"><img src={LinkedInPic} alt="LinkedIn" loading="lazy" /></a></li>
+            <li><a href="https://github.com/MohaDev01" target="_blank" rel="noopener noreferrer"><img src={GitHubPic} alt="GitHub" loading="lazy" /></a></li>
+            <li><a href="mailto:mohamedabdulrahmanyounis@gmail.com" target="_blank" rel="noopener noreferrer"><img src={MailPic} alt="Mail" loading="lazy" /></a></li>
           </ul>
         </FooterSection>
       </div>

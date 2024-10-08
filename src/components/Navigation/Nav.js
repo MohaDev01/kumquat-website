@@ -6,7 +6,7 @@ function Nav () {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="nav-bar">
       <a className="navbar-brand" href=".">
-        <img src={kumquat} alt="Kumquat Logo" loading="lazy" />
+        <img src={kumquat} alt="Kumquat" loading="lazy" />
       </a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

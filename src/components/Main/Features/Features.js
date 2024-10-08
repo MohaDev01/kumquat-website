@@ -23,7 +23,7 @@ function Features() {
               <div className="card-body">
                 <p className="card-title">For Easy Customization</p>
                 <p className="card-text">Empower your audience to engage, purchase, or download with design templates that capture essential details—like name and email.</p>
-                <a className="card-link" href="#">Browse Digital Templates</a>
+                <a className="card-link" href="/templates">Browse Digital Templates</a>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ function Features() {
               <div className="card-body">
                 <p className="card-title">For Customer Insights</p>
                 <p className="card-text">Understand your audience's experience with products or services using templates that allow them to rank, rate, and share their feedback.</p>
-                <a className="card-link" href="#">Browse Feedback Templates</a>
+                <a className="card-link" href="/templates">Browse Feedback Templates</a>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Features() {
               <div className="card-body">
                 <p className="card-title">For Seamless Transactions</p>
                 <p className="card-text">Sell your digital products effortlessly with templates that enable secure checkouts and smooth payment processing.</p>
-                <a className="card-link" href="#">Browse Order Templates</a>
+                <a className="card-link" href="/templates">Browse Order Templates</a>
               </div>
             </div>
           </div>

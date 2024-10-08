@@ -25,31 +25,31 @@ function TemplatesCombined() {
         <div className="row text-justify">
           <div className="col-lg-4 cols">
             <div className="card border-0">
-              <img alt="Card Image" src={pic7} className="card-img-top" loading="lazy" />
+              <img alt="Card1" src={pic7} className="card-img-top" loading="lazy" />
               <div className="card-body">
                 <p className="card-title">Online Registration Template</p>
                 <p className="card-text">Boost sign-ups with this user-friendly and fully customizable design.</p>
-                <a className="card-link" href="#">Try it out</a>
+                <a className="card-link" href="/demo">Try it out</a>
               </div>
             </div>
           </div>
           <div className="col-lg-4 cols">
             <div className="card border-0">
-              <img alt="Card Image2" src={pic8} className="card-img-top" loading="lazy" />
+              <img alt="Card2" src={pic8} className="card-img-top" loading="lazy" />
               <div className="card-body">
                 <p className="card-title">Lead Generation Template</p>
                 <p className="card-text">Attract and convert prospects with this ready-to-use solution.</p>
-                <a className="card-link" href="#">Try it out</a>
+                <a className="card-link" href="/demo">Try it out</a>
               </div>
             </div>
           </div>
           <div className="col-lg-4 cols">
             <div className="card border-0">
-              <img alt="Card Image3" src={pic9} className="card-img-top" loading="lazy" />
+              <img alt="Card3" src={pic9} className="card-img-top" loading="lazy" />
               <div className="card-body">
                 <p className="card-title">Customer Feedback Template</p>
                 <p className="card-text">Gain valuable insights and enhance customer experiences with this template.</p>
-                <a className="card-link" href="#">Try it out</a>
+                <a className="card-link" href="/demo">Try it out</a>
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ function TemplatesCombined() {
             </ul>
           </div>
           <div className="col-lg-6">
-            <img alt="Design Image" src={imgSrc} className="img-fluid" loading="lazy" />
+            <img alt="Design" src={imgSrc} className="img-fluid" loading="lazy" />
           </div>
         </div>
       </div>

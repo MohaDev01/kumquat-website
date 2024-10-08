@@ -16,19 +16,19 @@ function Trust () {
         <div className="col-md-12 bg-transparent">
           <ul className="d-flex justify-content-center">
             <li>
-              <img alt="Canva" src={canva} className="img-fluid" loading="lazy" />
+              <img alt="Visit Canva" src={canva} className="img-fluid" loading="lazy" />
             </li>
             <li>
-              <img alt="Shopify" src={shopify} className="img-fluid" loading="lazy" />
+              <img alt="Visit Shopify" src={shopify} className="img-fluid" loading="lazy" />
             </li>
             <li>
-             <img alt="Wix" src={wix} className="img-fluid" loading="lazy" />
+             <img alt="Visit Wix" src={wix} className="img-fluid" loading="lazy" />
             </li>
             <li>
-              <img alt="Adobe Creative Cloud" src={acc} className="img-fluid" loading="lazy" />
+              <img alt="Visit Adobe Creative Cloud" src={acc} className="img-fluid" loading="lazy" />
             </li>
             <li>
-              <img alt="HubSpot" src={hubspot} className="img-fluid" loading="lazy" />
+              <img alt="Visit HubSpot" src={hubspot} className="img-fluid" loading="lazy" />
             </li>
           </ul>
         </div>
