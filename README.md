@@ -26,10 +26,6 @@ The **Kumquat Shop** is a fully responsive e-commerce website designed to delive
 
 - **Responsive Design**: Optimized for all devices (mobile, tablet, desktop).
 - **User-Friendly Interface**: Simple, intuitive navigation and minimalistic design.
-- **Product Catalog**: Browse various products with filtering options. **Coming Soon**
-- **Cart and Checkout System**: Add items to the cart, view total price, and proceed to checkout. **Coming Soon**
-- **Integrated Payment System**: Secure payment options for a smooth shopping experience. **Coming Soon**
-- **Search Functionality**: Quickly find products using the search bar. **Coming Soon**
 - **SEO Optimized**: Implemented SEO best practices to improve discoverability.
 - **Performance**: Fast loading times with optimized images and resources.
 
